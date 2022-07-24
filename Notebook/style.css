@@ -1,0 +1,49 @@
+body {
+   background: #434750;
+}
+
+.title_notebook {
+   text-align: center;
+   font-weight: 700;
+   color: #fff;
+}
+
+/* Форма */
+.main_form {
+   text-align: center;
+}
+
+.form_area {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 1.5rem;
+}
+
+.form_areas {
+   width: 33%;
+   margin: 0 auto;
+}
+
+.form_areas > label {
+   margin-top: 1.2rem;
+   color: #fff;
+}
+
+.btn-primary {
+   margin-top: 3.2rem;
+ }
+
+/* Контактные карты */
+.card {
+   width: 100%;
+   margin-top: 1.2rem;
+}
+
+.card:last-child {
+   margin-bottom:1.5rem;
+}
+
+.card-info {
+   display: flex;
+   justify-content: space-between;
+}

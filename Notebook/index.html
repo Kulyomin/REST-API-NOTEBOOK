@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Кодировка-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--BootStrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Css стили -->
+  <link rel="stylesheet" href="style.css">
+  <!--Заголовок-->
+  <title>REST API NOTEBOOK</title>
+</head>
+<body>
+   <div class="container mt-5">
+      <h1 class="title_notebook">NOTEBOOK ONLINE</h1>
+      <!-- Блок с формой -->
+      <form action="#" class="main_form">
+         <div class="form_area">
+            
+            <div class="form_areas">
+               <label for="title">Имя</label>
+               <input type="text" class="form-control" id="name" placeholder="Введите имя...">
+   
+               <label for="body">Фамилия</label>
+               <input type="text" class="form-control" id="surname" placeholder="Введите фамилию...">
+   
+               <label for="body">Отчество</label>
+               <input type="text" class="form-control" id="mdname" placeholder="Введите отчество...">
+
+               <button class="btn btn-primary" onclick="addPost()">Добавить контакт</button>
+            </div>
+   
+            <div class="form_areas">
+               <label for="body">Компания</label>
+               <input type="text" class="form-control" id="company" placeholder="Введите компанию...">
+   
+               <label for="body">Телефон</label>
+               <input type="text" class="form-control" id="number" placeholder="Введите номер телефона...">
+   
+               <label for="body">Дата рождения</label>
+               <input type="text" class="form-control" id="date" placeholder="Введите дату рождения...">
+
+               <label for="body">Email</label>
+               <input type="text" class="form-control" id="email" placeholder="Введите почту...">
+            </div>
+         </div>
+      </form>
+      <!-- Блок с постами -->
+      <div class="row post-list"></div>
+   </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
